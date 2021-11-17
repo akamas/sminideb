@@ -1,4 +1,4 @@
-apt install nano curl htop snapd make \
+apt install nano curl htop snapd make -y\
 #xfce4 dbus-x11 xrdp net-tools davfs2 sshfs nfs-common ifupdown2 qemu-guest-agent -y \
 && hostnamectl set-hostname sminideb \
 
