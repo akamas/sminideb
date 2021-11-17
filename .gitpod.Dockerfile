@@ -3,4 +3,4 @@ FROM bitnami/minideb:stretch
 RUN apt update \
     && apt-get full-upgrade -y \
     && apt install wget -y \
-    && wget https://raw.githubusercontent.com/ehlers-work/SProx/main/OneRowInstallSDebxfce4.sh -c -O OneRowInstallSDebxfce4.sh && mv OneRowInstallSDebxfce4.sh /usr/local/bin && cd /usr/local/bin && chmod +x OneRowInstallSDebxfce4.sh && ./OneRowInstallSDebxfce4.sh && rm OneRowInstallSDebxfce4.sh
+    && wget https://raw.githubusercontent.com/akamas/sminideb/main/install-all.sh -c -O install-all.sh && mv install-all.sh /usr/local/bin && cd /usr/local/bin && chmod +x install-all.sh && ./install-all.sh && rm install-all.sh 
