@@ -1,5 +1,4 @@
-apt install nano curl htop snapd net-tools davfs2 sshfs nfs-common ifupdown2 -y\
-#xfce4 dbus-x11 xrdp net-tools davfs2 sshfs nfs-common ifupdown2 qemu-guest-agent -y \
+apt install nano curl htop net-tools davfs2 sshfs nfs-common ifupdown2 xfce4 dbus-x11 xrdp qemu-guest-agent -y \
 && hostnamectl set-hostname sminideb \
 
 && cd /usr/local/src \
