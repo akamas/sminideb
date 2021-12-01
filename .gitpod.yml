@@ -7,13 +7,7 @@
 ports:
   - port: 22
     onOpen: open-preview
-ports:
-  - port: 80
-    onOpen: open-preview
-ports:
-  - port: 443
-    onOpen: open-preview
 
 # Load Dockerfile
 image:
-  file: .Dockerfile
+  file: Dockerfile
