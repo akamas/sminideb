@@ -16,4 +16,4 @@ ports:
 
 # Load Dockerfile
 image:
-  file: .gitpod.Dockerfile
+  file: .Dockerfile
