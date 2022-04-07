@@ -1,7 +1,6 @@
 FROM bitnami/minideb:buster
 
 RUN apt update \
-    && hostnamectl set-hostname sminideb \
     && mkdir /mnt/noip/ \
     && cd /mnt/noip/ \
     && wget http://www.no-ip.com/client/linux/noip-duc-linux.tar.gz \
