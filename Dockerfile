@@ -1,4 +1,4 @@
-FROM gitpod/workspace-full:latest
+FROM 22.10
 
 USER root
 
