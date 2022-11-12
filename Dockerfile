@@ -1,4 +1,4 @@
-FROM bitnami/minideb:11
+FROM gitpod/workspace-full:latest
 
 USER root
 
