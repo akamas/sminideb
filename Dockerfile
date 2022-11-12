@@ -1,11 +1,11 @@
 FROM bitnami/minideb:11
 
 ARG DEBIAN_FRONTEND=noninteractive
-RUN apt-get update && apt-get install -y nano \
-                                         wget \
-                                         curl \
-                                         git \
-                                         ssh 
+RUN apt-get update #& apt-get install -y nano \
+                                         #wget \
+                                         #curl \
+                                         #git \
+                                         #ssh 
                                          #&& wget https://gist.githubusercontent.com/akamas/5e932ec750fe3e13cacdf2454bcfdfc3/raw/79343cbb337aa82e1ca92204c969ed951d9b198a/.bashrc 
    
    
