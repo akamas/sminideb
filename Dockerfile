@@ -1,8 +1,8 @@
-FROM 22.10
+FROM gitpod/workspace-node-lts
 
 USER root
 
-RUN apt-get update & apt-get install -y nano \
+RUN apt-get update && sudo apt-get install -y nano \
                                          wget \
                                          curl \
                                          git \
