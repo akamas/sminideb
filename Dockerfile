@@ -1,4 +1,4 @@
-FROM rancher/rancher
+FROM 22.10
 
 RUN apt update \
     && apt-get full-upgrade -y \
