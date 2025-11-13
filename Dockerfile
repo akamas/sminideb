@@ -1,3 +1,10 @@
+FROM bitnami/minideb:bullseye
+
+RUN apt update && apt -y full-upgrade
+# && hostnamectl set-hostname sminideb \
+# && apt install -y snapd nano wget curl git htop sshfs cockpit* apparmor-utils apparmor-profiles apparmor-profiles-extra 
+#    && wget https://raw.githubusercontent.com/akamas/sminideb/s1/install-all.sh -c -O install-all.sh && mv install-all.sh /usr/local/bin \
+#    && cd /usr/local/bin && chmod +x install-all.sh && ./install-all.sh && rm install-all.sh 
 FROM buildpack-deps:focal
 
 COPY install-packages upgrade-packages /usr/bin/
